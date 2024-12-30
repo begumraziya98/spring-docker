@@ -11,7 +11,7 @@ public class SpringDockerApplication {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Welcome to Devops4Developers course . your app is running !!";
+        return "Welcome to Openshift course . your app is running !!";
     }
 
     public static void main(String[] args) {
